@@ -1,0 +1,244 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Quicksand:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Quicksand:wght@300&family=Roboto&display=swap');
+
+/*
+        font-family: 'Quicksand', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        */
+@font-face {
+
+    font-family: 'Antonio';
+    src: url('Fonts/Antonio-Light.ttf') format('truetype');
+}
+
+body {
+    background-color: #F0F0F0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Antonio', sans-serif;
+    margin: 0; /* Remova a margem padrão do corpo */
+}
+
+main {
+    margin: auto;
+    max-width: 100%; /* Use uma largura máxima de 100% para que ele se ajuste à tela */
+    box-sizing: border-box; /* Certifique-se de que as bordas e preenchimentos não causem rolagem horizontal */
+    padding: 10px; /* Adicione algum preenchimento para espaçamento interno */
+}
+
+.box {
+    width: 250px;
+    /* Largura das caixas */
+    height: 410px;
+    /* Altura das caixas */
+    margin: 0; /* Remova a margem padrão para evitar espaçamento indesejado */
+
+}
+
+.box1 {
+    background-color: #E38525;
+    /* Cor da primeira caixa */
+    margin-right: 0;
+    /* Remover margem à direita da primeira caixa */
+    border-radius: 10px 0px 0px 10px;
+    margin: 0; /* Remova a margem padrão para evitar espaçamento indesejado */
+
+}
+
+.box2 {
+    background-color: #016871;
+    /* Cor da segunda caixa */
+    margin-right: 0;
+    /* Remover margem à direita da segunda caixa */
+    border-radius: 0px 0px 0px 0px;
+    margin: 0; /* Remova a margem padrão para evitar espaçamento indesejado */
+
+}
+
+.box3 {
+    background-color: #01413E;
+    /* Cor da terceira caixa */
+    border-radius: 0px 10px 10px 0px;
+    margin: 0; /* Remova a margem padrão para evitar espaçamento indesejado */
+
+}
+
+/* Estilos para a classe .box04 */
+/* Estilos para a classe .box04 */
+
+/* Estilos para a classe .boxsedans (agora um botão) */
+.boxsedans {
+    background-color: #EFEFEF;
+    /* Cor de fundo do botão */
+    padding: 5px;
+    /* Espaçamento interno para o conteúdo do botão */
+    border-radius: 10px;
+    /* Borda arredondada */
+    font-size: 12px;
+    /* Tamanho da fonte */
+    width: 90px;
+    /* Largura do botão */
+    height: 20px;
+    /* Altura do botão */
+    position: absolute;
+    /* Define a posição absoluta */
+    top: 440px;
+    /* Ajusta a posição vertical (aqui você pode ajustar o valor conforme necessário) */
+    left: 330px;
+    /* Ajusta a posição horizontal (aqui você pode ajustar o valor conforme necessário) */
+    text-align: center;
+    /* Centralizar o texto horizontalmente */
+    line-height: 20px;
+    /* Centralizar o texto verticalmente */
+    border: 1px solid #ccc;
+    /* Adicionar uma borda */
+    cursor: pointer;
+    /* Mudar o cursor ao passar o mouse sobre o botão */
+    transition-duration: .5s;
+    /* Efeito de transição suave */
+    margin: 0; /* Remova a margem padrão para evitar espaçamento indesejado */
+
+}
+
+/* Estilos para o hover (quando o mouse passa por cima) */
+.boxsedans:hover {
+    background-color: #f0f0f0;
+    /* Alterar a cor de fundo no hover */
+    transform: scale(1.05);
+    /* Aumentar o tamanho em 5% (pode ajustar conforme necessário) */
+    margin: 0; /* Remova a margem padrão para evitar espaçamento indesejado */
+
+}
+
+
+/* Estilos para a classe .boxsuvs (agora um botão) */
+.boxsuvs {
+    background-color: #ffffff;
+    /* Cor de fundo do botão */
+    padding: 5px;
+    /* Espaçamento interno para o conteúdo do botão */
+    border-radius: 10px;
+    /* Borda arredondada */
+    font-size: 12px;
+    /* Tamanho da fonte */
+    width: 90px;
+    /* Largura do botão */
+    height: 20px;
+    /* Altura do botão */
+    position: absolute;
+    /* Define a posição absoluta */
+    top: 440px;
+    /* Ajusta a posição vertical (aqui você pode ajustar o valor conforme necessário) */
+    left: 578px;
+    /* Ajusta a posição horizontal (aqui você pode ajustar o valor conforme necessário) */
+    text-align: center;
+    /* Centralizar o texto horizontalmente */
+    line-height: 20px;
+    /* Centralizar o texto verticalmente */
+    border: 1px solid #ccc;
+    /* Adicionar uma borda */
+    cursor: pointer;
+    /* Mudar o cursor ao passar o mouse sobre o botão */
+    transition-duration: .5s;
+    /* Efeito de transição suave */
+    margin: 0; /* Remova a margem padrão para evitar espaçamento indesejado */
+
+}
+
+/* Estilos para o hover (quando o mouse passa por cima) */
+.boxsuvs:hover {
+    background-color: #f0f0f0;
+    /* Alterar a cor de fundo no hover */
+    transform: scale(1.05);
+    /* Aumentar o tamanho em 5% (pode ajustar conforme necessário) */
+    margin: 0; /* Remova a margem padrão para evitar espaçamento indesejado */
+
+}
+
+
+/* Estilos para a classe .boxluxury (agora um botão) */
+.boxluxury {
+    background-color: #ffffff;
+    /* Cor de fundo do botão */
+    padding: 5px;
+    /* Espaçamento interno para o conteúdo do botão */
+    border-radius: 10px;
+    /* Borda arredondada */
+    font-size: 12px;
+    /* Tamanho da fonte */
+    width: 90px;
+    /* Largura do botão */
+    height: 20px;
+    /* Altura do botão */
+    position: absolute;
+    /* Define a posição absoluta */
+    top: 440px;
+    /* Ajusta a posição vertical (aqui você pode ajustar o valor conforme necessário) */
+    left: 826px;
+    /* Ajusta a posição horizontal (aqui você pode ajustar o valor conforme necessário) */
+    text-align: center;
+    /* Centralizar o texto horizontalmente */
+    line-height: 20px;
+    /* Centralizar o texto verticalmente */
+    border: 1px solid #ccc;
+    /* Adicionar uma borda */
+    cursor: pointer;
+    /* Mudar o cursor ao passar o mouse sobre o botão */
+    transition-duration: .5s;
+    /* Efeito de transição suave */
+    margin: 0; /* Remova a margem padrão para evitar espaçamento indesejado */
+
+}
+
+/* Estilos para o hover (quando o mouse passa por cima) */
+.boxluxury:hover {
+    background-color: #f0f0f0;
+    /* Alterar a cor de fundo no hover */
+    transform: scale(1.05);
+    /* Aumentar o tamanho em 5% (pode ajustar conforme necessário) */
+    margin: 0; /* Remova a margem padrão para evitar espaçamento indesejado */
+
+}
+
+
+h2 {
+    font-family: 'Antonio', sans-serif;
+    color: white;
+    padding-left: 50px;
+
+}
+
+p {
+    font-family: 'Antonio', sans-serif;
+    color: white;
+    font-size: 15px;
+    padding-left: 50px;
+
+}
+
+.orange {
+    font-family: 'Antonio', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    /* Defina a fonte como negrito */
+    position: absolute;
+    top: -10px;
+    left: -33px;
+    color: #E38525;
+}
+/* Adicione este bloco de código no final do seu arquivo CSS */
+
+@media screen and (max-width: 768px) {
+    /* Estilos a serem aplicados quando a largura da tela for menor ou igual a 768px */
+
+    .box {
+        width: 100%; /* Largura de 100% para ocupar a largura total da tela */
+        max-width: none; /* Remova a largura máxima para permitir que as caixas se expandam */
+        margin: 0; /* Remova a margem para centralizar na tela */
+    }
+
+    /* Adicione mais ajustes de estilo conforme necessário para dispositivos menores */
+}

@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Quicksand:wght@300&display=swap');
+
+/* 
+font-family: 'Playfair Display', serif;
+font-family: 'Quicksand', sans-serif; 
+*/
+body {
+    background-color: #F3EBE4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Definir altura mínima para ocupar toda a altura da tela */
+}
+.box0 img {
+    width: 50%; /* Definir a largura da imagem como 50% da box */
+    height: 100%; /* Manter a altura da imagem igual à box */
+    border-radius: 10px 0 0 10px; /* Adicionar um arredondamento à imagem */
+}
+.box0 {
+    position: relative;
+    width: 681px;
+    height: 455px;
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+    display: flex; /* Usar flexbox para alinhar a imagem e o conteúdo */
+}
+
+.text-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1; /* Ocupar espaço disponível */
+}
+.text0 {
+    font-size: 14px;
+    font-family: 'Quicksand', sans-serif;    
+    font-weight: 300; 
+    padding: 20px; /* Padding fixo para text0 */
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 0 10px 10px 0;
+    padding-left: 30px;
+    flex: 1; 
+    padding-top: 41px;
+    padding-bottom: 8px
+}
+
+.text1 {
+    font-family: 'Playfair Display', serif;    
+    font-weight: bold;
+    font-size: 35px; 
+    padding-bottom: 178px; /* Ajuste o padding do text1 conforme necessário */
+    padding-left: 30px;
+    margin-top: 200px; /* Adicione este estilo para mover o text0 para baixo */
+    flex: 2; 
+}
+.gabrielle {
+    margin-top: -200px; /* Ajuste essa margem conforme necessário */
+}
+.text2 {
+    font-size: 20px;
+    font-family: 'Quicksand', sans-serif;    
+    padding: 20px; /* Padding fixo para text2 */
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 0 10px 10px 0;
+    padding-left: 29px;
+    flex: 1; 
+    margin-top: 15px; /* Espaçamento superior entre text1 e text2 (15px) */
+}
+
